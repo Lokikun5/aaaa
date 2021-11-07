@@ -1,0 +1,1164 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/* general */
+.margeGauche
+{
+	margin-left: 50px;
+}
+.margeDroite
+{
+	margin-right: 100px;
+}
+.flexCenter
+{
+	display: flex;
+	justify-content: center;
+}
+.flexBetween
+{
+	display: flex;
+	justify-content: space-between;
+}
+.space-evenly
+{
+	justify-content: space-evenly;
+}
+.flexColumn
+{
+	display: flex;
+	flex-direction: column;
+}
+.flexAround
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+/* font-family asset */
+
+h1
+{
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 700;
+	font-size: 20px;
+}
+
+h2
+{
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 200;
+	font-size: 15px;
+}
+h3
+{
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+h4
+{
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 200;
+	font-size: 15px;
+}
+p
+{
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 700;
+}
+.fontLink
+{
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+}
+.fontLink2
+{
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 200;
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+	list-style: none;
+}
+ul
+{
+	list-style: none;
+}
+/* body */
+
+body
+{
+	width: 100%;
+	margin: auto;
+}
+
+/* header */
+.sizelink
+{
+	width: 45%
+}
+.sizelink2
+{
+	width: 140px;
+	height: 99px;
+}
+.colorLink13
+{
+	color: #0065FC;
+}
+.colorLinkBlack
+{
+	color: black;
+}
+.decorationNone
+{
+	text-decoration: none;
+}
+.logo
+{
+	width: 80%;
+	margin-bottom: 10px;
+}
+.borderNav
+{
+	border-top: 1px solid #0065FC;
+}
+.borderNav2
+{
+	border-top: 1px solid transparent;
+}
+.siezNav
+{
+	height: 100px;
+	margin-top: 20px;
+}
+.margeHeader
+{
+	margin-left: 50px;
+}
+.borderNav2:hover
+{
+	border-top: 1px solid #0065FC;
+}
+.colorLinkBlack:hover
+{
+	color: #0065FC;
+}
+
+
+/* barre de recherch */
+.backGris
+{
+	background-color:#F2F2F2;
+}
+.backBleu
+{
+	background-color:#0065FC;
+}
+.font
+{
+	font-family:'Raleway', sans-serif; 
+}
+.bordureSearch
+{
+	width: 400px;
+	border-radius: 10px;
+	border: 1px solid #F2F2F2;
+}
+.iconeSize
+{
+	height: 50px;
+	width: 50px;
+	border-radius: 10px 0 0 10px;
+	
+}
+.recherche
+{
+	height: 50px;
+	width: 230px;
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+}
+.bordureNone
+{
+	border: none;
+}
+.paddingSearch
+{
+	padding-left: 20px;
+}
+.buttonSearch 
+{
+	height: 50px;
+	width: 120px;
+	color: white;
+	cursor: pointer;
+	border-radius:0 10px 10px 0;
+}
+
+/* Filtres */
+
+.filtre
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.filterSpace
+{
+	margin-top: 50px;
+	margin-bottom: 40px;
+	margin-right: 300px;
+}
+.filterTitre
+{
+	margin-right: 20px;
+}
+
+.filtreBorder
+{
+	border: 2px solid #F2F2F2;
+	height: 50px;
+	border-radius: 30px;
+	margin-right: 40px;
+	
+}
+.filtreIcons
+{
+	border-radius: 25px;
+	width: 54px;
+	height: 54px;
+	color: #0065FC;
+	background-color: #DEEBFF;
+}	
+.filtreIcons:hover 
+{
+	color: red;
+}
+
+
+.textIcons:hover
+{
+	color: red;
+}
+
+/* description */
+
+.flex
+{
+	display: flex;
+}
+.iconDescriptionMarge
+{
+	margin-right: 20px;
+	margin-top:10px;
+	border: 2px solid #F2F2F2;
+	border-radius: 20px;
+	width: 30px;
+	height: 30px;
+	
+}
+.iconcInfo
+{
+	color: #0065FC;
+	position: absolute;
+	margin-top: 6px;
+
+}
+
+/* Hébergements à Marseille*/
+.hebergementsFont
+{
+	border-radius: 10px 10px 10px 10px;
+	height:670px;
+	width:800px;
+	margin-bottom: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.hebergementsTitre
+{
+	padding-top: 30px;
+	padding-left: 30px;
+	margin-bottom: 20px;
+}
+
+.cartefond
+{
+	background-color: white;
+	border-radius: 10px 10px 10px 10px;
+	width: 230px;
+	height: 220px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	box-shadow: 1px 1px 5px #A1A0AA;
+}
+.hebergementsImages
+{
+	width: 220px;
+	height: 110px;
+	padding-left: 5px;
+	padding-top: 5px;
+	border-radius: 15px 15px 0px 0px;
+}
+.margeSoustitresIcons
+{
+	padding-left: 10px;
+	margin-top:-15px;
+	
+}
+.margeTexte2
+{
+	padding-top:5px;
+}
+.grayIcons
+{
+	color: #A1A0AA;
+}
+.bleuIcons
+{
+	color: #0065FC;
+}
+.fontsizetitreHebergements
+{
+	font-size: 25px;
+}
+.fontsizetitreHebergements2
+{
+	font-size: 20px;
+}
+.fontsizetitre
+{
+	font-size: 17px;
+}
+.flex-wrap
+{
+	display: flex;
+	flex-wrap: wrap-reverse;
+}
+
+/* Les plus populaires*/
+.populairesfond
+{
+	border-radius: 10px 10px 10px 10px;
+	height:670px;
+	width:400px;
+	margin-bottom: 50px;
+	margin-left: 20px;
+}
+.populairesTitre
+{
+	padding-top: 30px;
+	padding-left: 30px;
+	margin-bottom: 20px;
+	padding-right: 10px;
+}
+.iconPopulaires
+{
+	padding-right: 50px;
+	padding-top: 15px;
+}
+.cartefondPopulaires
+{
+	background-color: white;
+	border-radius: 10px 10px 10px 10px;
+	width: 320px;
+	height: 140px;
+	margin-top:15px;
+	margin-bottom: 40px;
+	box-shadow: 1px 1px 5px #A1A0AA;	
+}
+.populairesImages
+{
+	width: 110px;
+	height: 130px;
+	padding-left: 5px;
+	padding-top: 5px;
+	border-radius: 15px 0px 0px 15px;
+}
+.margeSoustitresIconsPoupulaires
+{
+	padding-left: 10px;
+	margin-top:-15px;
+}
+.margeImagesTexte
+{
+	margin-right:10px;
+}
+/* Activités à Marseille */
+.margeBlocImages
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 50px;
+	width: 90%;
+}
+.margeBlocImages2
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 90%;
+}
+.sizeImage1
+{
+	width: 270px;
+	height: 300px;
+	border-radius: 15px 15px 0px 0px;
+}
+.sizeImage2
+{
+	width: 270px;
+	height: 120px;
+	border-radius: 15px 15px 0px 0px;
+}
+.sizeImage3
+{
+	width: 270px;
+	height: 85px;
+	border-radius: 15px 15px 0px 0px;
+}
+.sizeImage4
+{
+	width: 270px;
+	height: 95px;
+	border-radius: 15px 15px 0px 0px;
+}
+.sizeImage5
+{
+	width: 270px;
+	height: 120px;
+	border-radius: 15px 15px 0px 0px;
+}
+.BorderImagesActivités
+{
+	border: 1px solid #F2F2F2;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 1px 1px 5px #A1A0AA;
+	width: 268px;
+	height: 370px;
+	margin-right: 50px;
+	margin-bottom: 40px;
+	
+}
+.BorderImagesActivités2
+{
+	border: 1px solid #F2F2F2;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 1px 1px 5px #A1A0AA;
+	width: 270px;
+	height: 190px;
+	margin-bottom: 40px;
+}
+.BorderImagesActivités3
+{
+	border: 1px solid #F2F2F2;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 1px 1px 5px #A1A0AA;
+	width: 270px;
+	height: 140px;
+	margin-bottom: 40px;
+}
+.BorderImagesActivités4
+{
+	border: 1px solid #F2F2F2;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 1px 1px 5px #A1A0AA;
+	width: 270px;
+	height: 150px;
+	margin-bottom: 40px;
+}
+.BorderImagesActivités5
+{
+	border: 1px solid #F2F2F2;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 1px 1px 5px #A1A0AA;
+	width: 270px;
+	height: 185px;
+	margin-bottom: 40px;
+}
+.MargeTexteImagesActivités
+{
+	margin-left:10px;
+}
+.linkCarte
+{
+	display: none;
+}
+.margeBlocglobal
+{
+	margin-bottom: 50px;
+}
+/* footer */
+footer
+{
+	background-color: #F2F2F2;
+	height: 250px;	
+}
+.footTexteMarge
+{
+	padding-top: 30px;
+	margin-left: 30px;
+}
+.margeTitreFoot
+{
+	margin-left: 40px;
+	
+}
+.margeAssistance
+{
+	padding-right: 400px;
+}
+.margeNosHebergements
+{
+	padding-right: 100px;
+}
+/* tablettes */
+@media screen and (max-width: 992px)
+{
+	body
+	{
+		width: 100%;
+		margin: auto;
+	}
+	/* Filtres */
+	.filtre
+	{
+		margin-right: 20px;
+		margin-bottom: 5px;
+	}
+	.FiltresDisplay
+	{
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: left;
+	}
+	/* Hébergements à Marseille*/
+	.flexColumn-reverse
+	{
+		display: flex;
+		justify-content: center;
+		flex-direction: column-reverse;
+	}
+	.hebergementsFont
+	{
+		height: 800px;
+		width: 700px;
+	}
+	.cartefond
+	{
+		width: 300px;
+		height: 200px;
+	}
+	.hebergementsImages
+	{
+		width: 290px;
+		height: 100px;
+	}
+	.flexCenter2
+	{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	/* Les plus populaires*/
+	.populairesfond
+	{
+		margin-top: 70px;
+		margin-left: 5px;
+		width: 700px;
+		height: 700px;
+		
+	}
+	.cartefondPopulaires
+	{
+		height: 160px;
+		width: 460px;
+	}
+	.populairesImages
+	{
+		width: 220px;
+		height: 150px;
+	}
+	/* Activités à Marseille */
+	.margeBlocImages
+	{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	.BorderImagesActivités
+	{
+		height: 200px;
+		width: 300px;	
+	}
+	.sizeImage1
+	{
+		width: 300px;
+		height: 140px;
+	}
+	.BorderImagesActivités2
+	{
+		height: 200px;
+		width: 300px;	
+	}
+	.sizeImage2
+	{
+		width: 300px;
+		height: 140px;
+	}
+	.BorderImagesActivités3
+	{
+		height: 200px;
+		width: 300px;	
+	}
+	.sizeImage3
+	{
+		width: 300px;
+		height: 140px;
+	}
+	.BorderImagesActivités4
+	{
+		height: 200px;
+		width: 300px;	
+	}
+	.sizeImage4
+	{
+		width: 300px;
+		height: 140px;
+	}
+	.BorderImagesActivités5
+	{
+		height: 200px;
+		width: 300px;	
+	}
+	.sizeImage5
+	{
+		width: 300px;
+		height: 140px;
+	}
+	.margeBlocImages2
+	{
+		margin-top: -260px;
+	}
+	footer
+	{
+		height: 300px;
+	}
+}
+
+
+/* telephone */
+@media screen and (max-width: 768px)
+{
+	/* header */
+	body
+	{
+		width: 100%;
+		margin: auto;
+	}
+	
+	header
+	{
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.NavTelephone
+	{
+		display: flex;
+		flex-direction: column;	
+	}
+	.siezNav
+	{
+		margin-bottom: 200px;
+	}
+	.logo
+	{
+		width: 50%;
+	}
+	.borderNav
+	{
+		border-bottom: 3px solid #0065FC;
+		border-top: none;
+	}
+	.borderNav2
+	{
+		border-bottom: 3px solid #F2F2F2;
+		border-top: none;
+	}
+	.borderNav2:hover
+	{
+		border-top: none;
+		border-bottom: 3px solid #0065FC;
+	}
+	/* barre de recherch */
+	
+	/* Filtres */
+	.FiltresDisplay
+	{
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: left;
+	}
+	.filterTitre
+	{
+		padding-right: 559px;
+	}
+	.filtreBorder
+	{
+		margin-bottom: 10px;
+	}
+	/* Hébergements à Marseille*/
+	.hebergementsFont2
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-right: 300px;
+	}
+	.nobackGris
+	{
+		background-color:white;
+	}
+	.none
+	{
+		display: none;
+	}
+	.cartefond
+	{
+		width: 400px;
+		height: 250px;
+	}
+	.hebergementsImages
+	{
+		width: 390px;
+		height: 150px;
+	}
+	.hebergementsTitre
+	{
+		margin-left: 50px;
+	}
+	/* Les plus populaires*/
+	.flexCenter2
+	{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.flexColumn-reverse
+	{
+		display: flex;
+		justify-content: center;
+		flex-direction: column-reverse;
+	}
+	.populairesfond
+	{
+		width: 500px;
+		height: 1000px;
+	}
+	.cartefondPopulaires
+	{
+		width: 390px;
+		height: 230px;
+	}
+	.populairesImages
+	{
+		height: 220px;
+		width: 150px;
+	}
+	/* Activités à Marseille*/
+	.BorderImagesActivitésMobil
+	{
+		width: 390px;
+		height: 260px;
+	}
+	.sizeImageMobil
+	{
+		width: 390px;
+		height: 200px;
+	}
+	.margeBlocglobal
+	{
+		margin-top:1100px;
+	}
+	.MargeTexteActivite
+	{
+		margin-left: 50px;
+	}
+	.margeBlocImages2
+	{
+		margin-top: 10px;
+	}
+	/* footer */
+	footer
+	{
+		height: 550px;
+	}
+	.flexColumn2
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.flexBetween2
+	{
+		display: flex;
+		justify-content: unset;
+	}
+
+	
+}
