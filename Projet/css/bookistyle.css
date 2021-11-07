@@ -1,0 +1,1502 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/* general */
+
+.flexCenter
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flexBetween
+{
+	display: flex;
+	justify-content: space-between;
+}
+.flexColumn
+{
+	display: flex;
+	flex-direction: column;
+}
+.flexAround
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+/* font-family asset */
+
+h1
+{
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 700;
+	font-size: 20px;
+}
+
+h2
+{
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+}
+h2:hover{
+	color: #0065FC;
+}
+h3
+{
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+h4
+{
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 200;
+	font-size: 15px;
+}
+h5
+{
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+}
+h6
+{
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+p
+{
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 800;
+	font-size: 15px;
+}
+.fontLink
+{
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+}
+.fontLink2
+{
+	font-family: 'Raleway' , sans-serif;
+	font-weight: 200;
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+	list-style: none;
+}
+ul
+{
+	list-style: none;
+}
+.weightG{
+	font-weight: 700;
+}
+/* body */
+
+body
+{
+	width: 100%;
+	margin: auto;
+	
+}
+.blocPageG
+{
+	max-width: 1280px;
+	margin: auto;
+}
+/* header */
+header
+{
+	display: flex;
+	margin: auto;
+}
+.flex1
+{
+	flex: 1;
+}
+.sizelink
+{
+	max-width: 40%;
+}
+.sizelink2
+{
+	width: 140px;
+	height: 99px;
+}
+.colorLink13
+{
+	color: #0065FC;
+}
+.colorLinkBlack
+{
+	color: black;
+}
+.decorationNone
+{
+	text-decoration: none;
+}
+.logo
+{
+	width: 15%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.borderNav
+{
+	border-top: 2px solid #0065FC;
+}
+.borderNav2
+{
+	border-top: 2px solid transparent;
+}
+.siezNav
+{
+	height: 100px;
+	margin-top: 20px;
+}
+
+.borderNav2:hover
+{
+	border-top: 2px solid #0065FC;
+}
+.colorLinkBlack:hover
+{
+	color: #0065FC;
+}
+
+
+/* barre de recherch */
+.backGris
+{
+	background-color:#F2F2F2;
+}
+.backBleu
+{
+	background-color:#0065FC;
+}
+.font
+{
+	font-family:'Raleway', sans-serif; 
+}
+.bordureSearch
+{
+	max-width: 400px;
+	border-radius: 10px;
+	border: 1px solid #F2F2F2;	
+}
+.iconeSize
+{
+	height: 50px;
+	width: 50px;
+	border-radius: 10px 0 0 10px;
+	
+}
+.recherche
+{
+	height: 50px;
+	width: 230px;
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+}
+.bordureNone
+{
+	border: none;
+}
+.paddingSearch
+{
+	padding-left: 20px;
+}
+.buttonSearch 
+{
+	height: 50px;
+	width: 120px;
+	color: white;
+	cursor: pointer;
+	border-radius:0 10px 10px 0;
+}
+.destopNone
+{
+	display: none;
+}
+/* Filtres */
+
+.filtre
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	padding-right: 70px;
+}
+.filterSpace
+{
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+
+.filtreBorder
+{
+	border: 2px solid #F2F2F2;
+	height: 55px;
+	border-radius: 30px;
+	margin-right: 20px;
+	align-items: center;
+}
+.filtreIcons
+{
+	border-radius: 30px;
+	width: 59px;
+	height: 59px;
+	color: #0065FC;
+	background-color: #DEEBFF;
+	margin-left: -1px;
+}	
+.filtreIcons:hover 
+{
+	background-color: #52667e;
+	color: black;
+}
+.textIcons:hover
+{
+	color: red;
+}
+.textIcons
+{
+	padding: 0px 15px;
+	white-space: nowrap;
+}
+.TitreFiltre
+{
+	margin-right: -50px;
+}
+/* description */
+
+.flex
+{
+	display: flex;
+}
+.iconDescriptionMarge
+{
+	margin-right: 20px;
+	margin-top:10px;
+	margin-bottom: 30px;
+	border: 2px solid #F2F2F2;
+	border-radius: 20px;
+	width: 2.5%;
+	height: 30px;
+	color: #0065FC;
+}
+
+/* Hébergements à Marseille*/
+.hebergementsFont
+{
+	border-radius: 20px 20px 20px 20px;
+	height: 100%;
+	width: 71%;	
+}
+.hebergementsTitre
+{
+	padding-top: 10px;
+	padding-left: 30px;
+	margin-bottom: 20px;
+}
+.cartefond
+{
+	background-color: white;
+	border-radius: 20px 20px 20px 20px;
+	width: 30%;
+	height: 220px;
+	
+	margin-bottom: 30px;
+	box-shadow: 1px 1px 5px #A1A0AA;
+}
+.cartefond:hover
+{
+	transform: scale(1.1);
+	transition: 900ms;
+}
+.hebergementsImages
+{
+	width: 96%;
+	height: 120px;
+	padding-left: 5px;
+	padding-top: 5px;
+	border-radius: 20px 20px 0px 0px;
+}
+.margeSoustitresIcons
+{
+	padding-left: 10px;
+	margin-top:-15px;
+}
+.grayIcons
+{
+	color: #A1A0AA;
+}
+.bleuIcons
+{
+	color: #0065FC;
+}
+.fontsizetitreHebergements
+{
+	font-size: 25px;
+}
+.fontsizetitreHebergements2
+{
+	font-size: 20px;
+}
+.fontsizetitre
+{
+	font-size: 1.1vw;
+}
+.fontsizetitre:hover
+{
+	color: #0065FC;
+}
+.flex-wrap
+{
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: space-evenly;
+}
+
+/* Les plus populaires*/
+.populairesfond
+{
+	border-radius: 20px 20px 20px 20px;
+	height: 730px;
+	width: 30%;
+	margin-left: 40px;
+}
+.populairesTitre
+{
+	padding-top: 5px;
+	padding-left: 30px;
+	margin-bottom: 0px;
+	padding-right: 10px;
+}
+.iconPopulaires
+{
+	padding-right: 1vw;
+	padding-top: 15px;
+}
+.cartefondPopulaires
+{
+	background-color: white;
+	border-radius: 20px 20px 20px 20px;
+	width: 95%;
+	height: 150px;
+	
+	margin-bottom: 40px;
+	box-shadow: 1px 1px 5px #A1A0AA;	
+}
+.cartefondPopulaires:hover
+{
+	transform: scale(1.1);
+	transition: 900ms;
+}
+
+.populairesImages
+{
+	width: 120px;
+	height: 140px;
+	padding-left: 5px;
+	padding-top: 5px;
+	border-radius: 20px 0px 0px 20px;
+}
+
+.margeImagesTexte
+{
+	margin-right:10px;
+}
+.textPopulaire
+{
+	padding-bottom: 25px;
+}
+.marginBottomEtoile
+{
+	margin-bottom: 2vw;
+}
+
+/* Activités à Marseille */
+
+
+.margeBlocImages1
+{
+	margin-right: 50px;
+	
+}
+.sizeImage1
+{
+	width: 100%;
+	height: 340px;
+	border-radius: 15px 15px 0px 0px;
+}
+.sizeImage2
+{
+	width: 100%;
+	height: 150px;
+	border-radius: 15px 15px 0px 0px;
+}
+.sizeImage3
+{
+	width: 100%;
+	height: 95px;
+	border-radius: 15px 15px 0px 0px;
+}
+.sizeImage4
+{
+	width: 100%;
+	height: 130px;
+	border-radius: 15px 15px 0px 0px;
+}
+.sizeImage5
+{
+	width: 100%;
+	height: 130px;
+	border-radius: 15px 15px 0px 0px;
+}
+.BorderImagesActivités
+{
+	border: 1px solid #F2F2F2;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 1px 1px 5px #A1A0AA;
+	width: 50%;
+	height: 410px;
+	margin-right: 50px;
+	margin-bottom: 40px;
+	
+}
+.BorderImagesActivités:hover
+{
+	transform: scale(1.1);
+	transition: 900ms;
+}
+.BorderImagesActivités2
+{
+	border: 1px solid #F2F2F2;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 1px 1px 5px #A1A0AA;
+	width: 100%;
+	height: 210px;
+	margin-bottom: 40px;
+}
+.BorderImagesActivités2:hover
+{
+	transform: scale(1.1);
+	transition: 900ms;
+}
+.BorderImagesActivités3
+{
+	border: 1px solid #F2F2F2;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 1px 1px 5px #A1A0AA;
+	width: 100%;
+	height: 150px;
+	margin-bottom: 40px;
+}
+.BorderImagesActivités3:hover
+{
+	transform: scale(1.1);
+	transition: 900ms;
+}
+.BorderImagesActivités4
+{
+	border: 1px solid #F2F2F2;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 1px 1px 5px #A1A0AA;
+	width: 100%;
+	height: 190px;
+	margin-bottom: 30px;
+}
+.BorderImagesActivités4:hover
+{
+	transform: scale(1.1);
+	transition: 900ms;
+}
+.BorderImagesActivités5
+{
+	border: 1px solid #F2F2F2;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 1px 1px 5px #A1A0AA;
+	width: 100%;
+	height: 195px;
+	margin-bottom: 40px;
+}
+.BorderImagesActivités5:hover
+{
+	transform: scale(1.1);
+	transition: 900ms;
+}
+.MargeTexteImagesActivités
+{
+	margin-left: 10px;
+}
+.margeBlocglobal
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+}
+
+/* footer */
+footer
+{
+	background-color: #F2F2F2;
+	height: 300px;
+	width: 100%;
+}
+.footTexteMarge
+{
+	padding-top: 15px;
+	
+}
+.margeTitreFoot
+{
+	margin-left: 40px;
+}
+.margeTopPropos
+{
+	margin-top: 30px;
+}
+.padFootGeneral
+{
+	padding-right: 400px;
+}
+@media screen and (min-width: 1080px)
+{
+	
+	.blocPageG
+	{
+		min-width: 1000px;
+		margin: auto;
+		
+	}
+	.logo,.descriptionMobil,.bordureSearch,.filterSpace,.iconDescriptionMargeMob{
+		margin-left: 10px;
+	}
+	footer{
+		min-width: 1280px;
+	}
+	
+}
+
+@media screen and (max-width: 1080px){
+	.filtre{
+		padding-right: 0px;
+	}
+	.fontsizetitre{
+		font-size: 1.5vw;
+
+	}
+	.textPopulaire{
+		padding-bottom: 0px;
+	}
+
+}
+@media screen and (max-width: 820px){
+	.fontsizetitre{
+		font-size: 2vw;
+	}
+}
+/* tablettes */
+@media screen and (max-width: 992px)
+{
+	.blocPageG
+	{
+		width: 90%;
+		
+	}
+	/* Filtres */
+	.filtre
+	{
+		margin-bottom: 5px;
+	}
+	.FiltresDisplay
+	{
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: left;
+	}
+	.filtreBorder
+	{
+		margin-bottom: 20px;
+	}
+	.TitreFiltre
+	{
+		margin-right: 20px;
+	}
+	.iconDescriptionMarge{
+		width: 3.5%;
+	}
+	/* Hébergements à Marseille*/
+	.flexColumn-reverse
+	{
+		display: flex;
+		justify-content: center;
+		flex-direction: column-reverse;
+	}
+	.hebergementsFont
+	{
+		height: 950px;
+		width: 80%;
+		margin-top: 20px;
+	}
+	.cartefond
+	{
+		width: 40%;
+		height: 200px;
+	}
+	.hebergementsImages
+	{
+		width: 96%;
+		height: 100px;
+	}
+	.flexCenter2
+	{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+	.cartefond:hover
+{
+	transform: scale(1);
+	transition: 900ms;
+}
+	/* Les plus populaires*/
+	.populairesfond
+	{
+		margin-top: 70px;
+		width: 80%;
+		height: 750px;
+		margin-right: 42px;
+		
+	}
+	.cartefondPopulaires
+	{
+		height: 170px;
+		width: 67%;
+	}
+	.populairesImages
+	{
+		width: 27vw;
+		height: 160px;
+	}
+	.cartefondPopulaires:hover
+	{
+	transform: scale(1);
+	}
+	.populairesImages:hover
+	{
+	transform: scale(1);
+	}
+	.BorderImagesActivités:hover
+	{
+		transform: scale(1);
+	}
+	.BorderImagesActivités4:hover
+	{
+		transform: scale(1);
+	}
+	.BorderImagesActivités2:hover
+	{
+		transform: scale(1);
+	}
+	.BorderImagesActivités3:hover
+	{
+		transform: scale(1);
+	}
+	.BorderImagesActivités5:hover
+	{
+		transform: scale(1);
+	}
+	/* Activités à Marseille */
+	.margeBlocImages1
+	{
+		margin: auto;
+	}
+	
+	.flexTablette
+	{
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.BorderImagesActivités
+	{
+		height: 260px;
+		width: 200px;	
+		margin-right: 30px;
+	}
+	.sizeImage1
+	{
+		width: 100%;
+		height: 190px;
+	}
+	.BorderImagesActivités2
+	{
+		height: 260px;
+		width: 250px;
+		margin-right: 20px;	
+	}
+	.sizeImage2
+	{
+		width: 100%;
+		height: 190px;
+	}
+	.BorderImagesActivités3
+	{
+		height: 100%;
+		width: 250px;	
+	}
+	.sizeImage3
+	{
+		width: 100%;
+		height: 190px;
+	}
+	.BorderImagesActivités4
+	{
+		height: 260px;
+		width: 250px;
+		margin-right: 20px;	
+	}
+	.sizeImage4
+	{
+		width: 100%;
+		height: 190px;
+	}
+	.BorderImagesActivités5
+	{
+		height: 260px;
+		width: 250px;	
+	}
+	.sizeImage5
+	{
+		width: 100%;
+		height: 190px;
+	}
+	footer
+	{
+		height: 300px;
+		width: 100%;
+	}
+	.padFootGeneral
+	{
+		padding-right: 0px;
+	
+	}
+}
+
+
+/* telephone */
+@media screen and (max-width: 768px)
+{
+	h6
+	{
+		font-family: 'Raleway' , sans-serif;
+		font-weight: 700;
+		font-size: 5vw;
+	}
+	h4
+	{
+		font-family: 'Raleway' , sans-serif;
+		font-weight: 400;
+		font-size: 20px;
+	}
+	h1
+	{
+		font-family: 'Raleway' , sans-serif;
+		font-weight: 600;
+		font-size: 6vw;
+	}
+	h2
+	{
+		font-family: 'Raleway' , sans-serif;
+		font-weight: 200;
+		font-size: 5vw;
+	}
+	h3
+	{
+		font-family: 'Raleway' , sans-serif;
+		font-weight: 700;
+		font-size: 15px;
+	}
+	/* header */
+	
+	.blocPageG
+	{
+		width: 100%;
+	}
+	
+	header
+	{
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	.flex1{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.logo
+	{
+		width: 50%;
+		margin: auto;
+	}
+	
+	nav
+	{
+		margin: auto;
+	} 
+	.borderNav
+	{
+		border-bottom: 3px solid #0065FC;
+		border-top: none;
+		
+	}
+	.borderNav2
+	{
+		border-bottom: 3px solid #F2F2F2;
+		border-top: none;
+		
+	}
+	.borderNav2:hover
+	{
+		border-top: none;
+		border-bottom: 3px solid #0065FC;
+	}
+	.flexMobil
+	{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.widthMobil
+	{
+		width: 50vw;
+	}
+	
+	/* Titre */
+
+	.descriptionMobil
+	{
+		margin-top: 50px;
+		margin-left: 20px;
+		
+	}
+
+	/* barre de recherch */
+	.buttonSearch
+	{
+		max-width: 50px;
+		border-radius: 15px;
+		width: 15vw;
+	}
+	.destopNone
+	{
+		display: block;
+	}
+	.mobileNone
+	{
+		display: none;
+	}
+	.bordureSearch
+	{
+		width: 325px;
+		border-radius: 10px;
+	}
+	.margeRechercheMobil
+	{
+		margin-top: 40px;
+		min-width: 350px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-left: 10px;
+	}
+	.paddingSearch
+	{
+		margin-right: 100px;
+	}
+	.iconeSize{
+		width: 50px;
+		
+	}
+	.recherche{
+		width: 80%;
+	}
+	/* Filtres */
+	.filtre{
+		padding-right: 0px;
+	}
+	.FiltresDisplay
+	{
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: left;
+	}
+	.TitreFiltre
+	{
+		padding-right: 70vw;
+	}
+	.filtreBorder
+	{
+		margin-bottom: 20px;
+	}
+	
+	.textIcons
+	{
+		
+		white-space: nowrap;
+	}
+	.filterSpace
+	{
+		margin-left: 10px;
+	}
+	/* icon Description */
+	.iconDescriptionMarge
+	{
+		margin-top: 30px;
+		margin-left: 10px;
+		width: 40px;
+		height: 40px;
+		border-radius: 30px;
+	}
+	.iconDescriptionMargeMob
+	{
+		width: 100%;
+	}
+	.sizeMobPlusDe500
+	{
+		width: 68%;
+	}
+	/* Hébergements à Marseille*/
+
+	.hebergementsFont2
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.nobackGris
+	{
+		background-color:white;
+	}
+	
+	.cartefond
+	{
+		width: 85vw;
+		height: 65vw;
+		border-radius: 30px 30px 30px 30px;
+	}
+	.hebergementsImages
+	{
+		width: 97%;
+		height: 35vw;
+		border-radius: 30px 30px 0px 0px;
+	}
+	
+	
+	.fontSizeCarteMobile
+	{
+		font-family: 'Raleway' , sans-serif;
+		font-weight: 300;
+		font-size: 4vw;
+	}
+	.margeSoustitresIcons
+	{
+		padding-left: 10px;
+		margin-top: -5px;
+	}
+	/* Les plus populaires*/
+	.flexCenter2
+	{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.flexColumn-reverse
+	{
+		display: flex;
+		justify-content: center;
+		flex-direction: column-reverse;
+	}
+	.populairesfond
+	{
+		width: 100%;
+		height: 200vw;
+		border-radius: 0px;
+	}
+	.populairesTitre{
+		padding-left: 20px;
+	}
+	.cartefondPopulaires
+	{
+		
+		width: 100%;
+		height: 42vw;
+		border-radius: 30px 30px 30px 30px;
+	}
+	.populairesImages
+	{
+		height: 40VW;
+		width: 43VW;
+		border-radius: 30px 0px 0px 30px;
+	}
+	.marginBottomEtoile
+	{
+		margin-top: 4vw;
+	}
+	.margeImagesTexte
+	{
+		margin-right:10px;
+
+	}
+	
+	.iconSizeMobil
+	{
+		font-size: 30px;
+	}
+	.fontsizetitre, .iconSizeMobil
+	{
+		font-size: 4vw;
+	}
+	.hebergementsTitre{
+		padding-left: 0px;
+	}
+	/* Activités à Marseille*/
+	.BorderImagesActivitésMobil
+	{
+		width: 95%;
+		height: 65vw;
+		border-radius: 30px 30px 30px 30px;
+		margin-right: 50px;
+	}
+	.sizeImageMobil
+	{
+		width: 100%;
+		height: 50vw;
+		border-radius: 30px 30px 0px 0px;
+	}
+	.margeBlocglobal
+	{
+		margin-top: 250vw;
+		margin-left: 40px;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		
+	}
+	
+	.margeBlocImages2
+	{
+		margin: auto;
+	}
+	
+	.flexTablette
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.fontLink
+	{
+		font-size: 3.5vw;
+	}
+	
+	/* footer */
+	footer
+	{
+		height: 600px;
+		width: 100%;	
+	}
+	.flexColumn2
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	.margeRightFoot
+	{
+		padding-right: 80px;
+	}
+	.paddingRightFootMobil
+	{
+		padding-left: 100px;
+		width: 300px;
+	}
+	.padFootGeneral
+	{
+		padding-right: 200px;
+		
+	}
+	.FontSizeFooter
+	{
+		font-size: 16px;
+		font-weight: 300;
+	}
+	.ulFootMarge
+	{
+		margin-top: -10px;
+	}
+}
